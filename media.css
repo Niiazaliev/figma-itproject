@@ -1,0 +1,367 @@
+@media (max-width: 1200px) {
+    .about-list-item {
+                     margin: 0 35px;
+    }
+    .about-us-title {
+    margin: 45px 0 70px 0;}
+}
+
+@media (max-width: 992px) {
+
+    .burger{
+        display: flex;
+    }
+    .top-menu{
+        display: none;
+    }
+    .top-menu.show{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 15, 0.8);
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+    }
+    .show-menu{
+    position: fixed;
+        right: 15px;
+        top: 36px;
+             }
+    /*.top.menu.show a{*/
+    /*    margin: 30px 0 30px;*/
+    /*}*/
+    .logo{
+        font-size: 20px;
+    }
+    .top-menu_item {
+        font-size: 24px;
+        margin: 20px 0 0;
+    }
+    .header-suptitle {
+        font-weight: 400;
+    }
+    .header-title {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 34px;
+        padding: 70px 0 40px;
+    }
+    .group1-title {
+        margin-top: 75px;
+    }
+    .btn {
+        width: 183px;
+        font-weight: 400;
+        height: 39px;}
+    h3 {
+        font-size: 30px;
+        line-height: 40px;}
+    p {
+        font-size: 13px;
+        line-height: 16px;
+        }
+    .i-text p {
+        margin: 0 0 25px 20px;
+    }
+    .i-text h4 {
+        margin-left: 20px;
+        margin-top: 20px;}
+    .ellipse {
+        width: 49%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    padding-bottom:48px}
+    .ellipse1 {
+        width: 89px;
+        height: 89px;}
+    .ellipse2 {
+        width: 75px;
+        height: 75px;}
+    .project {
+        top: 26%;
+        left: 26%;
+        height: 30px;
+        width: 30px;
+    }
+    .about-title {
+        font-size: 26px;
+        line-height: 35px;
+        margin-top: 15px;}
+    .s-items {
+        padding: 0 18px 18px 18px;}
+    .about-list-item span {
+        font-size: 26px;
+     }
+
+    .under-line {
+        padding-bottom: 50px;
+    }
+    #about-us {
+        padding: 70px 0 0;
+    }
+    .about-list-item {
+        margin: 0 15px;
+    }
+    .about-list {
+        margin: 15px 0 -35px;
+    }
+    .about-us-title h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    #all-projects {
+        padding: 75px 0 0;
+    }
+    .all-projects-title p {
+        margin: 35px 0 53px;
+    }
+    .section-title77 {
+        font-size: 28px;
+        line-height: 20px;
+    }
+    .section-desc77 {
+        font-size: 14px;}
+    .play {
+        top: 190px;}
+    .play-btn {
+        width: 270px;
+        padding: 10px 30px;
+    }
+    .play:before {
+        content: '';
+        bottom: -70px;
+    }
+    #subscribe {
+        margin-top: 180px;
+    }
+    .subscribe-input {
+        margin-top: 50px;
+    }
+    .subscribe-text-under {
+        margin: 35px 0 65px;
+    }
+    .subscribe-btn {
+        font-size: 15px;}
+    .footer-info h4 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 65px 0 5px 5px;
+    }
+    .footer-info p {
+        font-size: 12px;
+    }
+    .footer-info-text {
+        padding-top: 15px;
+    }
+    .footer-underline-text {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 15px;
+    }
+    .top-menu_item {
+        font-size: 11px;
+        margin-left: 5px;
+    }
+    .header-title {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 55px 0 40px;
+    }
+    .group1-title {
+        margin-top: 65px;
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .about-title {
+        font-size: 23px;
+        line-height: 23px;}
+
+    p {
+        font-size: 11px;}
+    .ellipse1 {
+        width: 70px;
+        height: 70px;}
+    .ellipse2 {
+        width: 55px;
+        height: 55px;}
+    .project {
+        top: 20%;
+        left: 20%;}
+    .read-more {
+        font-size: 11px;}
+    .about-list-item span {
+        font-size: 18px;
+        padding-left: 2px;}
+    .about-list-item svg{
+        width: 23px;
+        height: 23px;
+    }
+    #about-us {
+        padding: 25px 0 0;
+    }
+    .about-us-title h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .footer-info p {
+        font-size: 11px;
+    }
+    .footer-info h4 {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 13px;
+        padding: 40px 0 5px 5px;}
+    .subscribe-btn {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 540px) {
+    header {
+        top: 15px;
+        padding-bottom: 12px;
+    }
+    .top-menu_item {
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .logo {
+        font-size: 12px;
+    }
+    .header-title {
+        font-size: 21px;
+        line-height: 28px;
+        padding: 40px 0 35px;
+    }
+    .btn {
+        width: 150px;
+        font-size: 10px;
+        height: 31px;
+    }
+    .group1-title {
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .group1-text {
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 10px;
+    }
+    .s-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+    .ellipse {
+        padding: 40px 0 10px 0;
+    }
+    .i-text h4 {
+        margin: auto;
+        left: 0;
+        right: 0;
+        padding: 15px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    .i-text {
+        text-align: center;
+    }
+    .col-6 {
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .about-title {
+        font-size: 17px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .about-text {
+        font-size: 16px;
+        line-height: 25px;
+        color: #999;
+        padding: 20px 0 15px;
+        text-align: center;
+    }
+    .about-list-item svg {
+        width: 18px;
+        height: 18px;
+    }
+    .about-list-item span {
+        font-size: 15px;
+        padding-left: 2px;
+    }
+    .about-list-item {
+        margin: 0 13px;
+    }
+    .col-4 {
+        width: 100%;
+        padding: 25px 15px;
+    }
+    .about-us-title {
+        margin: 25px 0 70px 0;
+        display: block;
+        text-align: center;
+    }
+    .about-us-title h2 {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 0 0 25px;
+    }
+    .about-us-text {
+        margin: 30px 10px;
+        text-align: center;
+    }
+    .all-projects-img {
+        display: block;}
+    .col-3 {
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .subscribe-title{
+        padding: 10px;
+        width: 100vw;
+    }
+    .subscribe-input label{
+        display: block;
+    }
+    .subscribe-email {
+        width: 299px;
+        border-radius: 35px;
+    }
+    .subscribe-btn {
+        position: absolute;
+        left: 55px;
+        top: 55px;
+        border-radius: 35px;}
+    .subscribe-text-under {
+        margin: 100px 0 65px;
+    }
+    .footer-box {
+        display: inline-grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
